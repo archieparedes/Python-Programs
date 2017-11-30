@@ -72,7 +72,5 @@ def decSyst(enterNum):
     for i in bitList:
         print(i, end='')
      
-
-     
 if __name__ == '__main__':
     main()
