@@ -6,6 +6,7 @@ Binary Search - recursion
 """
 
 def binarySearch(lst, key):
+    # Base Case
     if len(lst) == 1:
         if lst[0] == key:
             return(True)
