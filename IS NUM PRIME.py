@@ -14,6 +14,7 @@ def main():
 
 def prime(numInput):     
     i = True
+    """ While loop
     x = 2
     while(i == True):
         if(numInput%x == 0):
@@ -23,6 +24,10 @@ def prime(numInput):
             if x == numInput:
                 return(True)
     return(i)
-        
+     """   
+    for i in range(2, numInput):
+        if(numInput % i == 0):
+            i = False
+     return(i)
 if __name__ == '__main__':
     main()
